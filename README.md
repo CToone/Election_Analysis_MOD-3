@@ -1,46 +1,37 @@
-# Election_Analysis_MOD-3
+# Election_Analysis_MOD-3git commit -m "message"
 
-#Election_Analysis
+#Election_Results
 
 ## Project Overview: The Colorado Board of Elections has tasked you to complete, the following, in an election audit of a recent local congressional election.
-1.	Get the total number of votes cast
-2.	Compile a complete list of candidates who received votes
-3.	Calculate the total number of votes each candidate received
-4.	Calculate the percentage of votes each candidate won
-5.	Determine the winner of the election based on popular vote
+•	The voter turnout for each county
+•	The percentage of votes from each county out of the total count
+•	The county with the highest turnout
 
 ## Resources
-- Data Source: election_results.csv
-
-- Software: Python 3.11, Visual Studio Code 1.74
+	Data Source: election_results.csv
+	Software: Python 3.11, Visual Studio Code 1.74
 
 
 ## Summary
 The Analysis of the election shows that:
-
--	There were “X” votes cast in the election
-
--	The candidates were:
-
-o	Candidate 1
-
-o	Candidate 2
-
-o	Candidate 3 
-
--	The Candidate results were:
-
-o	Candidate 1 received “x%” of votes and “y” number of votes.
-
-o	Candidate 2 received “x%” of votes and “y” number of votes.
-
-o	Candidate 3 received “x%” of votes and “y” number of votes.
-
--	The Winner of the election was:
-
-o	Candidate ( 1, 2, 3), who received “x%” of the votes and “y” number of the votes.
-
+o	How many votes were cast in this congressional election? 369,711
+o	Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct. 
+o	Jefferson: 10.5% (38,855)
+o	Denver: 82.8% (306,055)
+o	Arapahoe: 6.7% (24,801)
+o	Which county had the largest number of votes? Denver 
+o	Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. 
+o	Charles Casper Stockham: 23.0% (85,213)
+o	Diana DeGette: 73.8% (272,892)
+o	Raymon Anthony Doane: 3.1% (11,606)
+o	Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+o	Winner: Diana DeGette
+o	Winning Vote Count: 272,892
+o	Winning Percentage: 73.8%
 
 ## Challenge Overview 
 
 ## Summary 
+With the CSV provided, the script can be modified for any election. 
+-	The data can be modified for any County, State or Elected Official.
+-	The pathway to the stored txt. May need to be updated in order to pull the correct info. 
